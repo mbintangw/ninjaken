@@ -1,0 +1,284 @@
+body{
+  font-family: 'Roboto Mono';
+}
+.container {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+header{
+  background-color:rgba(28, 29, 31, 0.884) ;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0 ;
+  z-index: 10 ;
+  padding-bottom: 20px;
+}
+
+.header-left{
+  float: left;
+  font-size: 20px;
+  padding: 0;
+}
+
+.header-right{
+  float: left;
+  padding: 40px 60px;
+  display: block;
+}
+
+.header-right a{
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.top-wrapper{
+  text-align: center;
+  padding: 140px 0 100px 0;
+  font-size: 40px;
+}
+
+.top-wrapper h3{
+  font-weight: normal;
+}
+
+.top-wrapper img{
+  width: 400px;
+}
+
+.description-wrapper{
+  text-align: center;
+  background-color: rgb(244,244,244);
+  font-size: 18px;
+  padding: 30px;
+}
+
+.description h3{
+  font-size: 32px;
+}
+
+.description p{
+  text-align: justify;
+}
+
+.heading{
+  text-align: center;
+  font-size: 32px;
+}
+
+.contents{
+  margin-top: 100px;
+}
+
+.contents-item img{
+  width: 300px;
+}
+
+.contents-item p{
+  text-align: center;
+}
+
+.contents-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex: auto;
+}
+
+.contact-form{
+  margin-top: 100px;
+  background-color: rgb(244,244,244);
+}
+.section-title{
+  text-align:center ;
+  font-size: 32px;
+}
+
+.Email{
+  width: 700px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+textarea{
+  width: 700px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit{
+  background-color: rgb(250, 217, 0);
+  border: 1px solid #dee7ec;
+  color: #000000;
+  width: 50%;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+}
+.form-wrapper{
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.btn-kirim{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+footer {
+  background-color:rgba(28, 29, 31, 0.884) ;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer-list a {
+  padding-bottom: 20px;
+  margin-right: 30px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+span.fa.fa-bars.menu-icon {
+  display: none;
+  float: right;
+  font-size: 25px;
+  padding: 46px 0;
+}
+
+@media all and (max-width: 1000px) {
+  .header-left{
+    float: left;
+    font-size: 15px;
+    padding: 20px;
+  }
+  
+  .header-right{
+    float: left;
+    padding: 50px 20px;
+  }
+  
+  .header-right a{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .contents-wrapper {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .header-left{
+    float: left;
+    font-size: 15px;
+  }
+
+  .header-right{
+    display: none;
+  }
+
+  span.fa.fa-bars.menu-icon {
+    display: block;
+    float: right;
+    font-size: 25px;
+    padding: 46px 0;
+  } 
+
+  .top-wrapper{
+    text-align: center;
+    padding: 140px 0 100px 0;
+    font-size: 20px;
+  }
+
+  .top-wrapper img{
+    width: 200px;
+  }
+
+  .description p{
+    text-align: left;
+  }
+  .Email{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+  
+  textarea{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+  }
+
+  footer {
+    background-color:rgba(28, 29, 31, 0.884) ;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 16px;
+  }
+  
+  .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  
+  .footer-list a {
+    padding-bottom: 10px;
+    margin-right: 15px;
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+  }
+
+}
